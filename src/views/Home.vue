@@ -1,4 +1,18 @@
 <template>
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+
+
+=======
+  <div class="home"> 
+  
+>>>>>>> Stashed changes
+  </div>
+</template>
+
+<template>
+>>>>>>> Stashed changes
 	<div class="container">
   <div class="row">
  	
@@ -37,6 +51,7 @@ import Carousel from "@/components/Carousel.vue"; // @ is an alias to /src
 export default class Home extends Vue {}
 </script>
 
+<<<<<<< Updated upstream
 
 <style>
   .navbar-nav{
@@ -52,6 +67,7 @@ export default class Home extends Vue {}
   .navbar-brand {
     float:left;
   }
+<<<<<<< Updated upstream
 
 
   .col1 {
@@ -70,3 +86,25 @@ export default class Home extends Vue {}
   height: 600px;
   }
 </style>
+=======
+</style>
+=======
+<style>
+
+.col1 {
+	border-right: 1px solid black;
+	padding-right:10px;
+}
+.col {
+	margin-top: 20px;
+	background-color: lightgrey;
+	padding:10px;
+	width:40vw;
+	margin-bottom: 20px;
+}
+</style>
+
+
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
