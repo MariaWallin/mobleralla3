@@ -7,7 +7,7 @@
 <<<<<<< HEAD
 =======
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>|
+      <router-link to="/kontor">Kontor</router-link>|
        <router-link to="/sovrum">Sovrum</router-link> |
         <router-link to="/vardagsrum">Vardagsrum</router-link> |
         <router-link to="/kok">Kök</router-link>
@@ -70,6 +70,7 @@
               </ul>
             </nav>
     </div>
+    <img alt="headerimg" src="./assets/_interior.jpg">
     <router-view/>
   </div>
 </template>

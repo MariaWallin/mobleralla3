@@ -1,12 +1,24 @@
 <template>
   <div class="home">
+<<<<<<< HEAD
     <HomeComponent/>
+=======
+    <img alt="Vue logo" src="../assets/logo.png">
+    
+    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+>>>>>>> master
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+<<<<<<< HEAD
 import HomeComponent from "@/components/HomeComponent.vue"; // @ is an alias to /src
+=======
+import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import Carousel from "@/components/Carousel.vue"; // @ is an alias to /src
+
+>>>>>>> master
 
 @Component({
   components: {
@@ -16,6 +28,7 @@ import HomeComponent from "@/components/HomeComponent.vue"; // @ is an alias to 
 export default class Home extends Vue {}
 </script>
 
+<<<<<<< HEAD
 
 
 
@@ -35,3 +48,5 @@ export default class Home extends Vue {}
   }
 	
 </style>
+=======
+>>>>>>> master
