@@ -1,7 +1,7 @@
 <template>
     <div class="kok">
         <h1>Köksinredning</h1>
-        <div class="d-flex justify-content-around">
+        <div class="d-flex justify-content-around mt-3">
             <div class="card" style="width: 18rem;">
                 <img src="https://cnet4.cbsistatic.com/img/g6_kpESppCKO4SzJ0RK3VcPzRvc=/1600x900/2018/07/27/d8a4a74d-013c-4565-b4a3-5f894dc0b848/cnet-smart-home-pr-images-0035.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-around">
+        <div class="d-flex justify-content-around mt-3">
             <div class="card" style="width: 18rem;">
                 <img src="https://cnet4.cbsistatic.com/img/g6_kpESppCKO4SzJ0RK3VcPzRvc=/1600x900/2018/07/27/d8a4a74d-013c-4565-b4a3-5f894dc0b848/cnet-smart-home-pr-images-0035.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
