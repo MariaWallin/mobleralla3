@@ -39,6 +39,15 @@ export default new Router({
       component: () =>
         import(/* webpackChunkName: "vardagsrum" */ "./views/Vardagsrum.vue")
     },
+{
+      path: "/kok",
+      name: "kok",
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "kok" */ "./views/Kok.vue")
+    }
 
   ]
 });
