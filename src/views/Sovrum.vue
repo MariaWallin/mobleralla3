@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="sovrum">
     <h1>This is stupidly hard</h1>
     <p>Michal was here</p>
     <p> Kemon Acho </p>
