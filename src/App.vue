@@ -51,7 +51,7 @@
 
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  <router-link to="/Köksinredning.vue">Köksinredning</router-link>
+                  <router-link to="/Kok.vue">Köksinredning</router-link>
                   </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Bänkskivor</a>
@@ -64,7 +64,7 @@
               </ul>
             </nav>
     </div>
-    <img alt="headerimg" src="./assets/_interior.jpg">
+    <img class="banner" alt="headerimg" src="./assets/_interior.jpg">
     <router-view/>
   </div>
 </template>

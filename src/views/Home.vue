@@ -1,10 +1,4 @@
 <template>
-
-
-  </div>
-</template>
-
-<template>
 	<div class="container">
   <div class="row">
  	
@@ -47,15 +41,32 @@ export default class Home extends Vue {}
 <style>
   .navbar-nav{
     text-align: center;
-    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
   }
   .navbar-brand > img{
     max-height: 100px;
-    margin: 40px;
+    margin: 40px 0px 40px 70px;
 
   }
   .navbar-brand {
-
     float:left;
+  }
+
+
+  .col1 {
+    border-right: 1px solid black;
+    padding-right:10px;
+}
+  .col {
+    margin-top: 20px;
+    background-color: lightgrey;
+    padding:10px;
+    width:40vw;
+    margin-bottom: 20px;
+}
+  .banner{
+  width: 90%;
+  height: 600px;
   }
 </style>
