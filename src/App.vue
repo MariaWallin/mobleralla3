@@ -8,7 +8,7 @@
         <router-link to="/kok">Kök</router-link>
 
     </div>
-
+    <img alt="headerimg" src="./assets/_interior.jpg">
     <router-view/>
   </div>
 </template>
