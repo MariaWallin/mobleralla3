@@ -2,12 +2,13 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>|
+      <router-link to="/kontor">Kontor</router-link>|
        <router-link to="/sovrum">Sovrum</router-link> |
         <router-link to="/vardagsrum">Vardagsrum</router-link> |
         <router-link to="/kok">Kök</router-link>
 
     </div>
+
     <router-view/>
   </div>
 </template>
