@@ -43,4 +43,19 @@ import Carousel from "@/components/Carousel.vue"; // @ is an alias to /src
 export default class Home extends Vue {}
 </script>
 
+
 <style>
+  .navbar-nav{
+    text-align: center;
+    margin: auto;
+  }
+  .navbar-brand > img{
+    max-height: 100px;
+    margin: 40px;
+
+  }
+  .navbar-brand {
+
+    float:left;
+  }
+</style>
