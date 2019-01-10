@@ -12,13 +12,13 @@ export default new Router({
       component: Home
     },
     {
-      path: "/about",
-      name: "about",
+      path: "/vardagsrum",
+      name: "vardagsrum",
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
+        import(/* webpackChunkName: "vardagsrum" */ "./views/Vardagsrum.vue")
     },
 
 {
@@ -38,6 +38,15 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "vardagsrum" */ "./views/Vardagsrum.vue")
+    },
+{
+      path: "/köksinredning",
+      name: "köksinredning",
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "köksinredning" */ "./views/Köksinredning.vue")
     },
 
   ]
